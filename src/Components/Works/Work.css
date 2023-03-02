@@ -21,6 +21,9 @@ transform: scale(1.1);
 transition: all 0.5 ease;
 cursor: pointer;
 }
+
+
+
 /* media query */
 @media(min-width:768px){
     .works-list-container{
@@ -30,7 +33,7 @@ cursor: pointer;
         align-items: center;
     }
     .works-item{
-        width: 30%;
+        width: 80%;
         margin: 10px;
     }
 }

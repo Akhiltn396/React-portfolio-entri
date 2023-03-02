@@ -6,18 +6,20 @@ import w3 from '../../assets/w3.jpg'
 import w4 from '../../assets/w4.jpg'
 import w5 from '../../assets/w5.jpg'
 import w6 from '../../assets/w6.jpg'
+import elevate from '../../assets/elevate.png'
+import angela from '../../assets/udemy-angela.png'
 const Work = () => {
   return (
     <div className='works-container'>
       <h1>My Courses</h1>
       <div className='works-list-container'>
         <div className='works-item'>
-        <img src={w1} alt='w1' ></img>
+        <img src={elevate} alt='elevate' ></img>
         </div>
         <div className='works-item'>
-        <img src={w2} alt='w2'></img>
+        <img src={angela} alt='w2'></img>
         </div>
-        <div className='works-item'>
+         {/*<div className='works-item'>
         <img src={w3} alt='w3'></img>
         </div>
         <div className='works-item'>
@@ -28,7 +30,7 @@ const Work = () => {
         </div>
         <div className='works-item'>
         <img src={w6} alt='w6'></img>
-        </div>
+        </div> */}
 
       </div>
     </div>

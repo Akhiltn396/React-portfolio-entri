@@ -1,5 +1,8 @@
 import React from 'react'
 import './Services.css'
+ import WebIcon from '@mui/icons-material/Web'
+ import BackupIcon from '@mui/icons-material/Backup'
+import { GitHub } from '@mui/icons-material';
 
 const Services = () => {
   return (
@@ -16,21 +19,21 @@ const Services = () => {
         {/* item */}
     <div className='services-item-container'>
         <div className='service-item'>
-            <i className='fa-solid fa-code'></i>
+          <WebIcon />
         <div className='item-desc'>
             <h3>MERN</h3>
             <p>Completed Certificate Courses with MERN and also completed several projects with this domains.  </p>
         </div>
         </div>
         <div className='service-item'>
-            <i className='fa-solid fa-desktop'></i>
+           <GitHub />
         <div className='item-desc'>
             <h3>Git</h3>
             <p> </p>
         </div>
         </div>
         <div className='service-item'>
-            <i className='fa-solid fa-tablet-alt'></i>
+        <BackupIcon/>
         <div className='item-desc'>
             <h3>AWS</h3>
             <p> </p>
